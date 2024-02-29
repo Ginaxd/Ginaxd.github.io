@@ -52,6 +52,7 @@ h1 .ti{
 
 .seccion-texto {
   font-size: 1.2rem;
+  margin-bottom: 60px;
 }
 
 .btn-info {
@@ -97,6 +98,15 @@ h1 .ti{
   padding: 10px;
 }
 
+.proyecto-ux {
+  height: 1000px;
+  padding: 10px;
+}
+
+.proyecto-ux .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
@@ -398,4 +408,16 @@ footer {
   .hero-inferior-imagen {
     max-width: 600px;
   }
+}
+
+
+.seccion-textoo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container p {
+  margin-right: 10px; /* Puedes ajustar este valor según tu necesidad */
 }
